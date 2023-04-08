@@ -1,0 +1,18 @@
+{
+  "songs": [
+    {
+      "title": "Deathbed",
+      "artist": "Powfu",
+      "link": "./assets/music/deathbed-powfu.mp3",
+      "thumbnail": "./assets/image/deathbed.jpg",
+      "id": 1
+    },
+    {
+      "title": "Flower",
+      "artist": "Jisoo",
+      "link": "./assets/music/Flower-Jisoo.mp3",
+      "thumbnail": "./assets/image/flower.jpg",
+      "id": 2
+    }
+  ]
+}
