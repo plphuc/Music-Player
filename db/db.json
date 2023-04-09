@@ -3,16 +3,37 @@
     {
       "title": "Deathbed",
       "artist": "Powfu",
-      "link": "./assets/music/deathbed-powfu.mp3",
-      "thumbnail": "./assets/image/deathbed.jpg",
+      "link": "assets/music/deathbed-powfu.mp3",
+      "thumbnail": "assets/image/deathbed.jpg",
       "id": 1
     },
     {
       "title": "Flower",
       "artist": "Jisoo",
-      "link": "./assets/music/Flower-Jisoo.mp3",
-      "thumbnail": "./assets/image/flower.jpg",
+      "link": "assets/music/Flower-Jisoo.mp3",
+      "thumbnail": "assets/image/flower.jpg",
       "id": 2
+    },
+    {
+      "title": "Everything sucks",
+      "artist": "Vaultboy",
+      "link": "assets/music/everthing_sucks-vaul.mp3",
+      "thumbnail": "assets/image/suck.jpg",
+      "id": 3
+    },
+    {
+      "title": "Summertime",
+      "artist": "nyan",
+      "link": "assets/music/summertime-nyan.mp3",
+      "thumbnail": "assets/image/summertime.jpg",
+      "id": 4
+    },
+    {
+      "title": "Sunroof",
+      "artist": "Nicky",
+      "link": "assets/music/sunroof-nicky.mp3",
+      "thumbnail": "assets/image/sunroof.jpg",
+      "id": 5
     }
   ]
 }

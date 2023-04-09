@@ -7,6 +7,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="main_db.js">
     <link rel="stylesheet" href="main.js">
+
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <link rel="stylesheet" href="assets/image/wallpapers.jpg">
     <!-- <link rel="stylesheet" href="assets/music/deathbed-powfu.mp3"> -->
     <!-- <link rel="stylesheet" href="assets/music/everthing_sucks-vaul.mp3">
     <link rel="stylesheet" href="assets/music/Flower-Jisoo.mp3">
@@ -20,7 +24,7 @@
     <link rel="stylesheet" href="assets/image/sunroof.jpg"> -->
 </head>
 <body>
-    <div>
+    <div style="display: none;">
           <label for="title">title</label>
           <input type="text" id="title" name="title" placeholder="title">
       
@@ -35,10 +39,19 @@
         
           <input type="submit" value="Submit" id = "submit">
       </div>
-      <audio controls>
-        <source src="assets/music/deathbed-powfu.mp3" type="audio/mpeg">
-      </audio>
+      <div class="container">
+        <div class="wrapper">
+          <div class="playing"></div>
+          <div class="playlist"></div>
+        </div>
+      </div>
+      <div id="audio"></div>
     <script type="text/javascript" src="main_db.js"></script>
     <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
+
+
+<audio>
+  <source src=${currentSong.link} type="audio/mpeg">
+</audio>

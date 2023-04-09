@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../image/wallpapers.jpg');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    max-width: 400px;
+    min-width: 250px;
+    width: 40vw;
+    height: 70vh;
+    background-color: rgb(240, 248, 255, 0.6);
+    border-radius: 10px;
+}
+
+.playing {
+    min-height: 180px;
+
+}
+
+.playlist {
+    background-color:   rgb(240, 248, 255, 0.8);
+    border-radius: 20px 20px 10px 10px;
+}
+

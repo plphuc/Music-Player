@@ -1,7 +1,11 @@
-const btnElement = document.getElementById('submit')
- link_db = 'http://localhost:3000/songs'
 
+link_db = 'http://localhost:3000/songs'
+const $ = document.querySelector.bind(document)
+const $$ = document.querySelectorAll.bind(document)
+
+// POST new song to db
 function createSong(info) {
+    
     fetch(link_db, {
         method: 'POST',
         headers: {
@@ -17,7 +21,9 @@ function createSong(info) {
     })
 }
 
+const btnElement = $('#submit')
 
+// Catch click on Submit button to create new song in db
 btnElement.onclick = function() {
     const title = document.getElementById('title').value
     const artist = document.getElementById('artist').value
