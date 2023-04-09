@@ -19,13 +19,14 @@
     min-width: 250px;
     width: 40vw;
     height: 70vh;
-    background-color: rgb(240, 248, 255, 0.6);
+    background-color: rgb(240, 248, 255, 0.5);
     border-radius: 10px;
 }
 
 .playing {
     min-height: 180px;
-
+    position: fixed;
+    top: 0;
 }
 
 .playlist {
