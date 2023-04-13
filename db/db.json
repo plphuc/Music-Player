@@ -23,7 +23,7 @@
     },
     {
       "title": "Summertime",
-      "artist": "nyan",
+      "artist": "Nyan",
       "link": "assets/music/summertime-nyan.mp3",
       "thumbnail": "assets/image/summertime.jpg",
       "id": 4
@@ -34,6 +34,48 @@
       "link": "assets/music/sunroof-nicky.mp3",
       "thumbnail": "assets/image/sunroof.jpg",
       "id": 5
+    },
+    {
+      "title": "Cupid",
+      "artist": "Fifty Fifty",
+      "link": "assets/music/cupid.mp3",
+      "thumbnail": "assets/image/cupid.jpg",
+      "id": 6
+    },
+    {
+      "title": "Die For You",
+      "artist": "Weekend",
+      "link": "assets/music/dieforyou.mp3",
+      "thumbnail": "assets/image/dieforyou.jpg",
+      "id": 7
+    },
+    {
+      "title": "Gone",
+      "artist": "Rosie",
+      "link": "assets/music/gone.mp3",
+      "thumbnail": "assets/image/gone.jpg",
+      "id": 8
+    },
+    {
+      "title": "Mariposa",
+      "artist": "PTR",
+      "link": "assets/music/mariposa-PTR.mp3",
+      "thumbnail": "assets/image/mariposa.jpg",
+      "id": 9
+    },
+    {
+      "title": "On the move",
+      "artist": "Zamir",
+      "link": "assets/music/onthemove.mp3",
+      "thumbnail": "assets/image/onthemove.jpg",
+      "id": 10
+    },
+    {
+      "title": "Tầng thượng",
+      "artist": "Cá Hồi Hoang",
+      "link": "assets/music/tangthuong.mp3",
+      "thumbnail": "assets/image/tangthuong.jpg",
+      "id": 11
     }
   ]
 }

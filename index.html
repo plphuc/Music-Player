@@ -5,28 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="main_db.js">
-    <link rel="stylesheet" href="main.js">
+    <link rel="stylesheet" href="assets/js/main.js">
+    <link rel="stylesheet" href="assets/js/main_db.js">
 
     <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/icon/fontawesome-free-6.4.0-web/">
-    <link rel="stylesheet" href="assets/icon/themify-icons-font/">
+    <link rel="stylesheet" href="assets/icon/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.css">
+    <link rel="stylesheet" href="assets/icon/themify-icons-font/themify-icons/themify-icons.css">
 
     <link rel="stylesheet" href="assets/image/wallpapers.jpg">
-    <!-- <link rel="stylesheet" href="assets/music/deathbed-powfu.mp3"> -->
-    <!-- <link rel="stylesheet" href="assets/music/everthing_sucks-vaul.mp3">
-    <link rel="stylesheet" href="assets/music/Flower-Jisoo.mp3">
-    <link rel="stylesheet" href="assets/music/summertime-nyan.mp3">
-    <link rel="stylesheet" href="assets/music/sunroof-nicky.mp3">
-
-    <link rel="stylesheet" href="assets/image/deathbed.jpg">
-    <link rel="stylesheet" href="assets/image/suck.jpg">
-    <link rel="stylesheet" href="assets/image/flower.jpg">
-    <link rel="stylesheet" href="assets/image/summertime.jpg">
-    <link rel="stylesheet" href="assets/image/sunroof.jpg"> -->
 </head>
 <body>
-    <div style="display: none;">
+    <div style = "display: none;">
           <label for="title">title</label>
           <input type="text" id="title" name="title" placeholder="title">
       
@@ -43,17 +32,52 @@
       </div>
       <div class="container">
         <div class="wrapper">
-          <div class="playing"></div>
-          <div class="playlist"></div>
+          <div id="playing">
+            <div class="header_options">
+              <div class="back_option pointer"><i class="fa-sharp fa-solid fa-arrow-left"></i></div>
+              <div class="menu_option pointer">
+                <i class="fa-solid fa-ellipsis-vertical menu_icon"></i>
+              </div>
+            </div>
+            
+            <div id="playing_header">
+              <!-- <img id="playing_thumb" style="background-image: url(/assets/image/wallpapers.jpg);"></img> -->
+              <div class="playing_header_thumb">
+                <img id="playing_thumb" src="/assets/image/wallpapers.jpg"></img>
+              </div>
+              <div class="playing_info">
+              <div id="playing_info--title">Title</div>
+              <div id="playing_info--artist" style="display: none;">Artist</div>
+            </div>
+            </div>
+            
+            <div id="controls_dashboard">
+              <i class="fa-solid fa-rotate-right pointer" id="repeat"></i>
+              <i class="fa-solid fa-backward-step pointer" id="prev"></i>
+              <div id="toggle_play_pause">
+                <i class="fa-solid fa-play pointer toggle_button"></i>
+                <i class="fa-solid fa-pause pointer toggle_button deactive"></i>
+              </div>
+
+              <i class="fa-solid fa-forward-step pointer" id="next"></i>
+              <i class="fa-solid fa-shuffle pointer" id="shuffle"></i>
+            </div>
+            <div class="time_range">
+              <input type="range"  id="time"  name="time" min="0" max="100" value="0" step="1"> 
+            </div>
+          </div>
+          <!-- <div id="playlist_hidden">
+            <p style="display: block;">PLAYLIST <i class="fa-sharp fa-solid fa-angle-down"></i></p>
+          </div> -->
+          <div id="playlist">
+            <p class = "playlist_header">PLAYLIST &nbsp;  <i class="fa-sharp fa-solid fa-angle-down"></i></p>
+          </div>
         </div>
       </div>
-      <div id="audio"></div>
-    <script type="text/javascript" src="main_db.js"></script>
-    <script type="text/javascript" src="main.js"></script>
+      <audio id="audio" src="" ></audio>
+
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/main_db.js"></script>
 </body>
 </html>
 
-
-<audio>
-  <source src=${currentSong.link} type="audio/mpeg">
-</audio>

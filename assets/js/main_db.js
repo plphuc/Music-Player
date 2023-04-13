@@ -1,7 +1,6 @@
 
 link_db = 'http://localhost:3000/songs'
-const $ = document.querySelector.bind(document)
-const $$ = document.querySelectorAll.bind(document)
+
 
 // POST new song to db
 function createSong(info) {
